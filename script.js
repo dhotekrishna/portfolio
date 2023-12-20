@@ -49,10 +49,10 @@ myButton.addEventListener("click", function(){
 //Theme change for the page by changing css file
 const myCss = document.getElementById("maincssid")
 myButton.addEventListener("click", function(){
-  if (myCss.href.endsWith("/css/light.css")) {
-    myCss.href = "/css/dark.css";
+  if (myCss.href.endsWith("css/light.css")) {
+    myCss.href = "css/dark.css";
   } else {
-    myCss.href = "/css/light.css";
+    myCss.href = "css/light.css";
   }
 })
 
